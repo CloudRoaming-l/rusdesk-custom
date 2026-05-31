@@ -114,7 +114,7 @@ class _DesktopHomePageSimpleState extends State<DesktopHomePageSimple>
                   children: children,
                 ),
               ),
-              const Expanded(child: Container())
+              Expanded(child: Container())
             ],
           ),
           if (isOutgoingOnly)
